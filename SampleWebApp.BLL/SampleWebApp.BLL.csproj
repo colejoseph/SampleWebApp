@@ -40,12 +40,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="EmployeeCollections.cs" />
+    <Compile Include="EmployeeMaintenance.cs" />
+    <Compile Include="Interfaces\IEmployeeCollections.cs" />
+    <Compile Include="Interfaces\IEmployeeMaintenance.cs" />
+    <Compile Include="Interfaces\IGlobalReadOnlyRepository.cs" />
+    <Compile Include="Interfaces\IGlobalRepositoryBase.cs" />
+    <Compile Include="Interfaces\IGlobalStandardRepository.cs" />
+    <Compile Include="Interfaces\IStandardGlobalLogRepository.cs" />
+    <Compile Include="Interfaces\IStandardGlobalQueryableRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\SampleWebApp.CommonLibrary\SampleWebApp.CommonLibrary.csproj">
       <Project>{33f41cb7-10c7-4af3-867c-627f8351c7a2}</Project>
